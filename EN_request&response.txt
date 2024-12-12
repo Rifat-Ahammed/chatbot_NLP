@@ -1,0 +1,56 @@
+
+need to write in the json body: to get the response. 
+
+=>for Student:
+
+{
+    "action": "start/paleisti"
+}
+{
+    "action": "set_language/nustatyti_kalbą",
+    "language": "EN"
+}
+
+{
+    "action": "set_user_type",
+    "user_type": "Student",
+    "language": "EN"
+}
+
+{
+    "action": "choose_issue",
+    "user_type": "Student",
+    "issue": "AIS related issue",
+    "language": "EN"
+}
+"AIS related issue",
+"Microsoft related issue",
+ "Password related issue"
+
+=>for Employee:
+{
+    "action": "set_user_type",
+    "user_type": "Employee",
+    "language": "EN"
+}
+
+{
+    "action": "choose_issue",
+    "user_type": "Employee",
+    "issue": "2FA issue",
+    "language": "EN"
+}
+"AIS related issue",
+"Microsoft related issue",
+"Password related issue",
+"2FA issue"
+
+{
+    "message": "Please select an option/ Pasirinkite parinktį:",
+    "options": [
+        "AIS related issue",
+        "Microsoft related issue",
+        "Password related issue",
+        "2FA issue"
+    ]
+}

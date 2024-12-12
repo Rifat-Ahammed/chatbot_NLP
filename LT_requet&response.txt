@@ -1,0 +1,55 @@
+
+for studentas(LT)
+{
+    "action": "start/paleisti"
+}
+
+{
+    "action": "set_language/nustatyti_kalbą",
+    "language": "LT"
+}
+{
+    "action": "nustatyti_vartotojo_tipą",
+    "user_type": "Studentas",
+    "language": "LT"
+}
+
+
+{
+    "action": "pasirinkti_problema",
+    "user_type": "Studentas",
+    "issue": "Su AIS susijusi problema",
+    "language": "LT"
+}
+"Su AIS susijusi problema",
+"Su Microsoft susijusi problema",
+"Su slaptažodžiu susijusi problema"
+
+for Darbuotojas:
+{
+    "action": "start/paleisti"
+}
+{
+    "action": "set_language/nustatyti_kalbą",
+    "language": "LT"
+}
+
+{
+    "action": "nustatyti_vartotojo_tipą",
+    "user_type": "Darbuotojas",
+    "language": "LT"
+}
+
+{
+    "action": "pasirinkti_problema",
+    "user_type": "Darbuotojas",
+    "issue": "2AF problema",
+    "language": "LT"
+}
+
+"Su AIS susijusi problema",
+"Su Microsoft susijusi problema",
+"Su slaptažodžiu susijusi problema",
+"2AF problema"
+
+

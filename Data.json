@@ -1,0 +1,240 @@
+{
+  "intents": [
+    {
+      "intent": "AIS_issue",
+      "examples": [
+        "Turiu problemų su AIS",
+        "Su AIS susijusi problema",
+        "Kaip naudotis AIS?",
+        "Negaliu prisijungti prie AIS",
+        "AIS neveikia",
+        "Klaida AIS sistemoje",
+        "Kaip pasiekti AIS?",
+        "AIS sistema yra lėta",
+        "Man reikia pagalbos su AIS",
+        "forgot AIS password",
+        "cannot login to AIS",
+        "help with AIS"
+      ],
+      "responses": {
+        "Student":{
+          "LT": [
+            "Sveiki,\n\ndėl AIS kreipkitės į savo fakulteto dekanato Inspektorę:",
+            "\n\n\n**Sveikatos mokslų fakultetas** - Urtė Norkutė-Macijauskė\nTel. nr. (8 46) 39 85 54\ninspektorius.svmf@ku.lt\nHerkau Manto g. 84, 413 kab.",
+            "\n\n\n**Socialinių ir humanitarinių mokslų fakultetas** - Vitalija Milkerytė\nTel. nr. (8 46) 39 86 56\nvitalija.milkeryte@ku.lt\nS. Nėries g. 5, 103 kab.",
+            "\n\n\n**Jūros technologijų ir gamtos mokslų fakultetas** - Aušrinė Bergaudienė\nTel. (8 46) 39 88 00\nausrine.bergaudiene@ku.lt\nBijūnų g. 17, kabinetas 220."
+          ],
+          "EN": [
+            "Hello,\n\nFor AIS issues, please contact the inspector of your faculty's dean's office:",
+            "\n\n\n**Faculty of Health Sciences** - Urtė Norkutė-Macijauskė\nTel. no. (8 46) 39 85 54\ninspektorius.svmf@ku.lt\nHerkau Manto g. 84, room 413.",
+            "\n\n\n**Faculty of Social and Human Sciences** - Vitalija Milkerytė\nTel. no. (8 46) 39 86 56\nvitalija.milkeryte@ku.lt\nS. Nėries g. 5, room 103.",
+            "\n\n\n**Faculty of Marine Technology and Natural Sciences** - Aušrinė Bergaudienė\nTel. (8 46) 39 88 00\nausrine.bergaudiene@ku.lt\nBijūnų g. 17, room 220."
+          ]
+        },
+        "Employee": {
+          "LT": [
+            "Sveiki,\n\nkreipkitės į - Studijų vyresnioji specialistė Vaida Taurinskaitė (8 46) 39 89 25 trumpas nr.1925 arba vaida.taurinskaite@ku.lt"
+          ],
+          "EN": [
+            "Hello,\n\ncontact - Senior studies specialist Vaida Taurinskaitė (8 46) 39 89 25 short no.1925 or vaida.taurinskaite@ku.lt"
+          ]
+        }
+      }
+    },
+    {
+      "intent": "Microsoft_issue",
+      "examples": [
+        "Kaip įdiegti Microsoft Office?",
+        "Turiu problemų su Microsoft Teams",
+        "Microsoft Word neveikia",
+        "Su Microsoft susijusi problema",
+        "Negaliu prisijungti prie Microsoft Teams",
+        "Kaip naudotis Microsoft Excel?",
+        "Microsoft PowerPoint nepaleidžiamas",
+        "Negaliu atsisiųsti Microsoft programų",
+        "Reikia pagalbos su Microsoft paskyra",
+        "Office 365 access",
+        "how to use OneDrive",
+        "Microsoft tools"
+      ],
+      "responses": {
+        "Student":{
+          "LT": [
+            "Sveiki,\n\nKU suteikia prieiga prie office paketu, bet jie visi veikia per naršyklę kitaip tariant online.",
+            "\n\nOffice paketai veikiantys naršyklėje https://www.office.com/ arba per paštą, kurįgalima pasiekti https://outlook.office365.com/mail/ atsidariusiame dialogo lange įlaukelį įvedama Jūsų vardas.pavarde@ku.lt ir Jūsų vieningos paskyros slaptažodis (kaipjungėtės į mano.ku.lt arba fedi.ku.lt).",
+            "\n\n\n\nTaip pat studentai turi galimybę naudotis: OneDrive (su 100 GB duomenims)",
+            "\nKaip naudotis OneDrive video: https://youtu.be/ZA5bsQmeabs"   
+          ],
+          "EN": [
+            "Hello,\n\nKU provides access to office as a package, but they all work through a browser, in other words, online.",
+            "\n\nOffice packages running in the browser https://www.office.com/ or through mail, which can be accessed at https://outlook.office365.com/mail/ in the dialog that opens to field, enter your name.pavarde@ku.lt and your unified account password (such as connect to mano.ku.lt or fedi.ku.lt).",
+            "\n\n\n\nStudents also have the opportunity to use: OneDrive (with 100 GB of data)",
+            "\nHow to use OneDrive video: https://youtu.be/ZA5bsQmeabs"
+          ]
+        },
+        "Employee":{
+          "LT": [
+            "Sveiki,\n\nKU suteikia prieiga prie office paketu, bet jie visi veikia per naršyklę kitaip tariant online.",
+            "\n\nOffice paketai veikiantys naršyklėje https://www.office.com/ arba per paštą, kurįgalima pasiekti https://outlook.office365.com/mail/ atsidariusiame dialogo lange įlaukelį įvedama Jūsų vardas.pavarde@ku.lt ir Jūsų vieningos paskyros slaptažodis (kaipjungėtės į mano.ku.lt arba fedi.ku.lt).",
+            "\n\n\n\nTaip pat studentai turi galimybę naudotis: OneDrive (su 100 GB duomenims)",
+            "\nKaip naudotis OneDrive video: https://youtu.be/ZA5bsQmeabs"   
+          ],
+          "EN": [
+            "Hello,\n\nKU provides access to office as a package, but they all work through a browser, in other words, online.",
+            "\n\nOffice packages running in the browser https://www.office.com/ or through mail, which can be accessed at https://outlook.office365.com/mail/ in the dialog that opens to field, enter your name.pavarde@ku.lt and your unified account password (such as connect to mano.ku.lt or fedi.ku.lt).",
+            "\n\n\n\nStudents also have the opportunity to use: OneDrive (with 100 GB of data)",
+            "\nHow to use OneDrive video: https://youtu.be/ZA5bsQmeabs"
+          ]
+        }
+      }
+    },
+
+    {
+      "intent": "Password_issue",
+      "examples": [
+        "Pamiršau savo slaptažodį",
+        "Kaip pakeisti slaptažodį?",
+        "Negaliu prisijungti dėl slaptažodžio problemų",
+        "Slaptažodis netinkamas",
+        "Su slaptažodžiu susijusi problema", 
+        "Negaliu prisijungti dėl slaptažodžio",
+        "forgot student password",
+        "reset MANO KU password",
+        "help with VMA login"
+      ],
+      "responses": {
+        "Student":{
+          "LT": [
+            "Laba diena,\n\nJeigu neturite slaptažodžio (jungiantis pirmą kartą), atlikite šiuos žingsnius:",
+            "\n\n– Prisijunkite prie el. paslaugų portalo MANO KU adresu https://mano.ku.lt.",
+            "\n\n– Paspauskite nuorodą „Pamiršai slaptažodį?“.",
+            "\n\n– Į laukelį įrašykite el. pašto adresą, kurį nurodėte stodami į universitetą, ir spauskite mygtuką „Atstatyti slaptažodį“.",
+            "\n\n– Į nurodytą el. paštą gausite el. laišką su nuoroda pakeisti slaptažodį.",
+            "\n\n– Atsidariusiame lange įrašykite naują slaptažodį 2 kartus ir paspauskite mygtuką „Keisti slaptažodį“.",
+            "\n\nDėmesio! Slaptažodyje nenaudokite specialiųjų simbolių, tokių kaip +, & ir pan.",
+            "\n\nSlaptažodis negali būti sudarytas vien tik iš skaitmenų.",
+            "\n\n– Spauskite mygtuką „Atsijungti“.",
+            "\n\nJeigu pamiršote slaptažodį, jį galite pasikeisti el. paslaugų portale MANO KU, adresu https://mano.ku.lt. Dešinėje",
+            "\n\npaspauskite nuorodą „Pamiršai slaptažodį?“. Užpildykite reikalingus laukelius ir spauskite mygtuką „Atstatyti slaptažodį“.",
+            "\n\nŽalios spalvos tekstas patvirtins, kad operacija sėkminga. Paspauskite mygtuką „Atsijungti“.",
+            "\n\nDėmesio! Slaptažodyje nenaudokite specialiųjų simbolių, tokių kaip +, & ir pan. Slaptažodis negali susidaryti vien tik iš skaitmenų.",
+            "\n\n\n\nŽemiau naudingos nuorodos:",
+            "\n\nOffice paketai veikiantys naršyklėje ( https://www.office.com/ ): prisijungimas Jūsų vardas.pavardė@edu.ku.lt arba vardas.pavardė@ku.lt ir slaptažodis toks pat kaip jungiatės į mano.ku.lt",
+            "\n\nOffice įsirašyti į savo kompiuterį: (https://portal.office.com/account#installs ) prisijungimas Jūsų vardas.pavardė@edu.ku.lt arba vardas.pavardė@ku.lt ir slaptažodis toks pat kaip jungiatės į mano.ku.lt",
+            "\n\n\n\nElektroninis paštas telefone:",
+            "\n\nhttps://play.google.com/store/search?q=outlook&c=apps",
+            "\n\nhttps://apps.apple.com/us/app/microsoft-outlook/id951937596",
+            "\n\n\n\nOneDrive (su 100 GB duomenims) ( https://www.microsoft.com/lt-lt/microsoft-365/onedrive/download ): prisijungimas Jūsų vardas.pavardė@edu.ku.lt arba vardas.pavardė@ku.lt ir slaptažodis toks pat kaip jungiatės į mano.ku.lt",
+            "\n\n\nKaip naudotis OneDrive video: https://youtu.be/ZA5bsQmeabs",
+            "\n\n\n\nVMA (virtuali mokymosi sistema) https://vma.ku.lt / : prisijungimas Jūsų vardas.pavardė ir slaptažodis toks pat kaip jungiatės į mano.ku.lt",
+            "\n\n\n\nMicrosoftTeams ( https://www.microsoft.com/lt-lt/microsoft-teams/download-app): prisijungimas Jūsų vardas.pavardė@edu.ku.lt arba vardas.pavardė@ku.lt ir slaptažodis toks pat kaip jungiatės į mano.ku.lt",
+            "\n\n\n\nEduroam WiFi: prisijungimas Jūsų vardas.pavardė@edu.ku.lt arba vardas.pavardė@ku.lt ir slaptažodis toks pat kaip jungiatės į mano.ku.lt"
+          ],
+          "EN": [
+            "Good day,\n\nIf you don't have a password (when connecting for the first time), follow these steps:",
+            "\n\n- Connect to email service portal MANO KU at https://mano.ku.lt/en.",
+            "\n\n- Click on the „Forgot your password?“ link.",
+            "\n\n- Enter your e-mail in the box. the e-mail address that you specified when enrolling at the university and press the „Remind“ button.",
+            "\n\n- To the specified e-mail you will receive mail by e-mail an email with a link to change your password.",
+            "\n\n– In the window that opens, enter the new password twice and press the „Change password“ button.",
+            "\n\nAttention! Do not use special characters like +, &, etc. in the password. Password cannot be made up of numbers only.",
+            "\n\n- Press the „Logout“ button.",
+            "\n\nIf you forgot your password, you can change it by e-mail. in the service portal MANO KU, at https://mano.ku.lt/en/.",
+            "On the right click on the „Forgot your password?“ link. Fill in the required fields and click the „Reset password“ button.",
+            "\n\nGreen text will confirm that the operation is successful. Press the „Logout“ button. Attention! Do not use special characters like +, &, etc. in the password. A password cannot consist of only numbers.",
+            "\n\n\n\nUseful links below:",
+            "\n\nOffice packages running in a browser ( https://www.office.com/ ): login Your name.surname@edu.ku.lt and password is the same as when you connect to https://mano.ku.lt/en",
+            "\n\nOffice packages running in your computer: (https://portal.office.com/account#installs ) login Your name.surname@edu.ku.lt and password is the same as when you connect to https://mano.ku.lt/en",
+            "\n\nOneDrive (with 100 GB of data) ( https://www.microsoft.com/lt-lt/microsoft-365/onedrive/download ): login Your name.surname@edu.ku.lt and password is the same as when you connect to mano.ku.lt",
+            "\n\nHow to use OneDrive video: https://youtu.be/ZA5bsQmeabs",
+            "\n\nMicrosoftTeams ( https://www.microsoft.com/lt-lt/microsoft-teams/download-app ): login Your name.surname@edu.ku.lt and password is the same as when you connect to https://mano.ku.lt/en",
+            "\n\n\n\nEmail on web: https://outlook.office.com/mail/ :login your name.surname@edu.ku.lt and password same as for https://mano.ku.lt/en",
+            "\n\nEmail on phone:",
+            "\nhttps://play.google.com/store/search?q=outlook&c=apps",
+            "\nhttps://apps.apple.com/us/app/microsoft-outlook/id951937596",
+            "\n\nVMA (virtual learning system) https://vma.ku.lt : login Your name.surname and password is the same as when you connect to https://mano.ku.lt/en",
+            "\n\n\n\nEduroam WiFi: login Your name.surname@edu.ku.lt and password is the same as when you connect to https://mano.ku.lt/en"
+          ]
+        },
+        "Employee": {
+          "LT": [
+            "Jeigu neturite slaptažodžio (jungiantis pirmą kartą), atlikite šiuos žingsnius:",
+            "\n\n– Prisijunkite prie el. paslaugų portalo Intranet KU adresu https://intranet.ku.lt/.",
+            "\n\n– Paspauskite nuorodą „Pamiršai slaptažodį?“.",
+            "\n\n– Į laukelį įrašykite KU el. pašto adresą (vardas.pavarde@ku.lt), ir spauskite mygtuką „Priminti“.",
+            "\n\n– Į sutartyje nurodytą el. paštą gausite el. laišką su nuoroda pakeisti slaptažodį.",
+            "\n\n– Atsidariusiame lange įrašykite naują slaptažodį 2 kartus ir paspauskite mygtuką „Keisti slaptažodį“.",
+            "\n\nDėmesio! Slaptažodyje nenaudokite specialiųjų simbolių, tokių kaip +, & ir pan. Slaptažodis negali būti sudarytas vien tik iš skaitmenų.",
+            "\n\n– Spauskite mygtuką „Atsijungti“.",
+            "\n\nJeigu pamiršote slaptažodį, jį galite pasikeisti el. paslaugų portale Intranet KU, adresu https://intranet.ku.lt/.",
+            "\n\nDešinėje paspauskite nuorodą „Pamiršai slaptažodį?“. Užpildykite reikalingus laukelius ir spauskite mygtuką „Atstatyti slaptažodį“.",
+            "\n\nŽalios spalvos tekstas patvirtins, kad operacija sėkminga. Paspauskite mygtuką „Atsijungti“.",
+            "\n\nDėmesio! Slaptažodyje nenaudokite specialiųjų simbolių, tokių kaip +, & ir pan. Slaptažodis negali susidaryti vien tik iš skaitmenų.",
+            "\n\n\n\nŽemiau naudingos nuorodos:",
+            "\n\n\n\nVMA (virtuali mokymosi sistema) https://vma.ku.lt / : prisijungimas Jūsų vardas.pavardė ir slaptažodis toks pat kaip jungiatės į intranet.ku.lt",
+            "\n\n\n\nMicrosoftTeams ( https://www.microsoft.com/lt-lt/microsoft-teams/download-app ): prisijungimas Jūsų vardas.pavardė@ku.lt ir slaptažodis toks pat kaip jungiatės į intranet.ku.lt",
+            "\n\n\n\nElektroninis paštas: https://outlook.office.com/mail/ arba outlook aplikacija kompiuteriye. prisijungimas Jūsų vardas.pavardė@ku.lt ir slaptažodis toks pat kaip jungiatės į intranet.ku.lt",
+            "\n\n\n\nElektroninis paštas telefone:",
+            "\n\nhttps://play.google.com/store/search?q=outlook&c=apps",
+            "\n\nhttps://apps.apple.com/us/app/microsoft-outlook/id951937596",
+            "\n\n\n\nEduroam WiFi: prisijungimas Jūsų vardas.pavardė@ku.lt ir slaptažodis toks pat kaip jungiatės į intranet.ku.lt",
+            "\n\n\n\nOffice paketai veikiantys naršyklėje ( https://www.office.com/ ): prisijungimas Jūsų vardas.pavardė@ku.lt ir slaptažodis toks pat kaip jungiatės į intranet.ku.lt",
+            "\n\n\n\nOneDrive (su 100 GB duomenims) ( https://www.microsoft.com/lt-lt/microsoft-365/onedrive/download ): prisijungimas Jūsų vardas.pavardė@ku.lt ir slaptažodis toks pat kaip jungiatės į intranet.ku.lt",
+            "\n\n\n\nKaip naudotis OneDrive video: https://youtu.be/ZA5bsQmeabs"
+          ],
+          "EN": [
+            "Good day,\n\nIf you don't have a password (when connecting for the first time), follow these steps:",
+            "\n\n- Connect to email service portal INTRANET KU at https://intranet.ku.lt/en.",
+            "\n\n- Click on the „Forgot your password?“ link.",
+            "\n\n- Enter your KU email address (name.surname@edu.ku.lt) in the box, and click the „Reset password“ button.",
+            "\n\n- You will receive an email with a link to change your password to the email address specified in your contract.",
+            "\n\n– In the window that opens, enter the new password twice and press the „Change password“ button.",
+            "\n\nAttention! Do not use special characters like +, &, etc. in the password. Password cannot be made up of numbers only.\n\n",
+            "- Press the „Logout“ button.\n\n",
+            "If you forgot your password, you can change it by e-mail. in the service portal INTRANET KU, at https://intranet.ku.lt/en/.",
+            "On the right click on the „Forgot your password?“ link. Fill in the required fields and click the „Reset password“ button.",
+            "\n\nGreen text will confirm that the operation is successful. Press the „Logout„ button. Attention! Do not use special characters like +, &, etc. in the password. A password cannot consist of only numbers.",
+            "\n\n\n\nUseful links below:",
+            "\n\nVMA (virtual learning system) https://vma.ku.lt / : login Your name.surname and password is the same as when you connect to https://intranet.ku.lt/en",
+            "\n\n\nMicrosoftTeams (https://www.microsoft.com/lt-lt/microsoft-teams/download-app): login Your name.surname@ku.lt and password is the same as when you connect to https://intranet.ku.lt/en",
+            "\n\n\n\nEmail on web: https://outlook.office.com/mail/ :login your name.surname@ku.lt and password same as for https://intranet.ku.lt/en",
+            "\n\n\nEmail on phone:",
+            "\nhttps://play.google.com/store/search?q=outlook&c=apps",
+            "\nhttps://apps.apple.com/us/app/microsoft-outlook/id951937596",
+            "\n\n\n\nEduroam WiFi: login Your name.surname@ku.lt and password is the same as when you connect to https://intranet.ku.lt/en",
+            "\n\n\n\nOffice packages running in a browser ( https://www.office.com/ ): login Your name.surname@ku.lt and password is the same as when you connect to https://intranet.ku.lt/en",
+            "\n\n\n\nOneDrive (with 100 GB of data) ( https://www.microsoft.com/lt-lt/microsoft-365/onedrive/download ): login Your name.surname@ku.lt and password is the same as when you connect to https://intranet.ku.lt/en",
+            "\n\n\nHow to use OneDrive video: https://youtu.be/ZA5bsQmeabs"
+          ]
+        }
+      }
+    },
+    {
+      "intent": "2AF_employee",
+      "examples": [
+        "Negaliu naudoti 2AF",
+        "Kaip įjungti 2FA?",
+        "Dvejų veiksnių autentifikacija neveikia",
+        "2FA kodas neteisingas",
+        "2AF problema", 
+        "Kaip išspręsti 2AF problemą?",
+        "2FA issues",
+        "help with 2FA setup",
+        "cannot login due to 2FA"
+      ],
+      "responses":{
+        "Employee": {
+          "LT":[
+            "Prašome sekti šias instrukcijas, norint įsidiegti dviejų žingsnių autentifikaciją.",
+            "\nhttps://pagalba.ku.lt/storage/attachment/8/0/1/Instrukcijos-Kaip-nustatyti-keliu%CC%A8-z%CC%8Cingsniu%CC%A8-autentifikavima%CC%A8,-skirta%CC%A8-Office-365.pdf?id=1352&token=d460dd338dbbd45f8e5c95d0282eb5a6",
+            "\n\nArba: https://kult0-my.sharepoint.com/personal/egidijus_laucevicius_ku_lt/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fegidijus%5Flaucevicius%5Fku%5Flt%2FDocuments%2FInstrukcijos%2FInstrukcijos%2DKaip%20nustatyti%20keliu%CC%A8%20z%CC%8Cingsniu%CC%A8%20autentifikavima%CC%A8%2C%20skirta%CC%A8%20Office%20365%2Epdf&parent=%2Fpersonal%2Fegidijus%5Flaucevicius%5Fku%5Flt%2FDocuments%2FInstrukcijos&ct=1732873877343&or=Teams%2DHL&ga=1&LOF=1"
+          ],
+          "EN":[
+            "Please follow the instructions below to set up 2FA.",
+            "\nhttps://kult0-my.sharepoint.com/personal/egidijus_laucevicius_ku_lt/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fegidijus%5Flaucevicius%5Fku%5Flt%2FDocuments%2FInstrukcijos%2FInstructions%2DHow%20to%20set%20up%20multi%2Dstep%20authentication%20for%20Office%20365%2Epdf&parent=%2Fpersonal%2Fegidijus%5Flaucevicius%5Fku%5Flt%2FDocuments%2FInstrukcijos&ct=1732873857189&or=Teams%2DHL&ga=1&LOF=1"
+          ]
+        }
+      }
+    }
+  ]
+}
